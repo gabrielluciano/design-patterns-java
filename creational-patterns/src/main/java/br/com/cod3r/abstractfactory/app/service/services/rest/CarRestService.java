@@ -1,6 +1,8 @@
-package br.com.cod3r.abstractfactory.app.service.services;
+package br.com.cod3r.abstractfactory.app.service.services.rest;
 
-public class CarRestApiService implements CarService {
+import br.com.cod3r.abstractfactory.app.service.services.CarService;
+
+public class CarRestService implements CarService {
 
 	@Override
 	public void save(String model) {

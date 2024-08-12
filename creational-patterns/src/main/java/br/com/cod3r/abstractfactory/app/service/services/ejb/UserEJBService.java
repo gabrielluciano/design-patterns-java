@@ -1,4 +1,6 @@
-package br.com.cod3r.abstractfactory.app.service.services;
+package br.com.cod3r.abstractfactory.app.service.services.ejb;
+
+import br.com.cod3r.abstractfactory.app.service.services.UserService;
 
 public class UserEJBService implements UserService {
 

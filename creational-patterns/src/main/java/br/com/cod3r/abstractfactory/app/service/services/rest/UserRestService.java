@@ -1,6 +1,8 @@
-package br.com.cod3r.abstractfactory.app.service.services;
+package br.com.cod3r.abstractfactory.app.service.services.rest;
 
-public class UserRestApiService implements UserService {
+import br.com.cod3r.abstractfactory.app.service.services.UserService;
+
+public class UserRestService implements UserService {
 
 	@Override
 	public void save(String name) {

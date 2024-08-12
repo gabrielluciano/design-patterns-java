@@ -1,4 +1,6 @@
-package br.com.cod3r.abstractfactory.app.service.services;
+package br.com.cod3r.abstractfactory.app.service.services.ejb;
+
+import br.com.cod3r.abstractfactory.app.service.services.CarService;
 
 public class CarEJBService implements CarService {
 
