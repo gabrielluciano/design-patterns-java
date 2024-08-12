@@ -1,4 +1,4 @@
-package br.com.cod3r.factory.apple.model;
+package br.com.cod3r.factory.apple.before.model;
 
 public abstract class IPhone {
 	
