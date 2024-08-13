@@ -17,7 +17,7 @@ public class FastFoodMealBuilder {
     }
 
     public FastFoodMeal thatsAll() {
-        return new FastFoodMeal(drink, main, dessert, side, gift);
+        return new FastFoodMeal(drink, main, side, dessert, gift);
     }
 
     public FastFoodMealBuilder forDrink(String drink) {
