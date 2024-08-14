@@ -1,14 +1,14 @@
-package br.com.cod3r.facade.callCenter;
+package br.com.cod3r.facade.callCenter.before;
 
 import java.util.List;
 
-import br.com.cod3r.facade.callCenter.model.Card;
-import br.com.cod3r.facade.callCenter.model.Register;
-import br.com.cod3r.facade.callCenter.services.CardService;
-import br.com.cod3r.facade.callCenter.services.PaymentService;
-import br.com.cod3r.facade.callCenter.services.RegisterService;
-import br.com.cod3r.facade.callCenter.services.ReportService;
-import br.com.cod3r.facade.callCenter.services.SecurityService;
+import br.com.cod3r.facade.callCenter.before.model.Card;
+import br.com.cod3r.facade.callCenter.before.model.Register;
+import br.com.cod3r.facade.callCenter.before.services.CardService;
+import br.com.cod3r.facade.callCenter.before.services.PaymentService;
+import br.com.cod3r.facade.callCenter.before.services.RegisterService;
+import br.com.cod3r.facade.callCenter.before.services.ReportService;
+import br.com.cod3r.facade.callCenter.before.services.SecurityService;
 
 public class Client {
 
