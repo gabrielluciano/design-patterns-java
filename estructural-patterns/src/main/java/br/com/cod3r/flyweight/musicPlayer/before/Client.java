@@ -1,6 +1,6 @@
-package br.com.cod3r.flyweight.musicPlayer;
+package br.com.cod3r.flyweight.musicPlayer.before;
 
-import br.com.cod3r.flyweight.musicPlayer.service.MusicService;
+import br.com.cod3r.flyweight.musicPlayer.before.service.MusicService;
 
 public class Client {
 

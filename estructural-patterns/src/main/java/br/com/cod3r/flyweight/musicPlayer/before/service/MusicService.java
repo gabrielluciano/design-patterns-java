@@ -1,11 +1,11 @@
-package br.com.cod3r.flyweight.musicPlayer.service;
+package br.com.cod3r.flyweight.musicPlayer.before.service;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import br.com.cod3r.flyweight.musicPlayer.model.Music;
+import br.com.cod3r.flyweight.musicPlayer.before.model.Music;
 
 public class MusicService {
 	private Map<String, Map<String, Music>> memory;

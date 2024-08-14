@@ -1,4 +1,4 @@
-package br.com.cod3r.flyweight.musicPlayer.model;
+package br.com.cod3r.flyweight.musicPlayer.before.model;
 
 public class Music {
 	private String name;
