@@ -22,8 +22,8 @@ public class Bank implements BankOperations {
 			return;
 		}
 		user.setBalance(user.getBalance() + amount);
-		System.out.println(String.format("%s +%d. New Balance: %d", 
-				user.getName(), amount, user.getBalance()));
+		System.out.printf("%s +%d. New Balance: %d%n",
+				user.getName(), amount, user.getBalance());
 	}
 
 	@Override
@@ -42,8 +42,8 @@ public class Bank implements BankOperations {
 			return;
 		}
 		user.setBalance(user.getBalance() - amount);
-		System.out.println(String.format("%s -%d. New Balance: %d", 
-				user.getName(), amount, user.getBalance()));
+		System.out.printf("%s -%d. New Balance: %d%n",
+				user.getName(), amount, user.getBalance());
 	}
 
 	@Override
@@ -58,8 +58,8 @@ public class Bank implements BankOperations {
 			return;
 		}
 		user.setPassword(newPassword);
-		System.out.println(String.format("%s's password updated successfuly!", 
-				user.getName()));
+		System.out.printf("%s's password updated successfully!%n",
+				user.getName());
 	}
 
 }
