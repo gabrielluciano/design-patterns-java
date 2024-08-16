@@ -1,4 +1,4 @@
-package br.com.cod3r.iterator.tvChannel;
+package br.com.cod3r.iterator.tvChannel.before;
 
 import java.util.Random;
 
@@ -14,11 +14,11 @@ public class TV {
 				channels[channelsCount++] = i;
 			}
 		}
-		System.out.println(String.format("Found %d channels...", channelsCount));
+		System.out.printf("Found %d channels...%n", channelsCount);
 	}
 
 	public void accessChannel(Integer number) {
-		System.out.print(String.format("Channel %d: ", number));
+		System.out.printf("Channel %d: ", number);
 		for(int i = 0; i < channels.length; i++) {
 			if(channels[i] == number) {
 				System.out.println("OK!");

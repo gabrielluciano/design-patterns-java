@@ -1,4 +1,4 @@
-package br.com.cod3r.iterator.tvChannel;
+package br.com.cod3r.iterator.tvChannel.before;
 
 public class Client {
 
