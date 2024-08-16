@@ -1,4 +1,4 @@
-package br.com.cod3r.command.alexa.lights;
+package br.com.cod3r.command.alexa.before.lights;
 
 public class XiaomiLight {
 	
