@@ -1,4 +1,4 @@
-package br.com.cod3r.observer.party.characters;
+package br.com.cod3r.observer.party.before.characters;
 
 public class Doorman {
 	private boolean status = false;

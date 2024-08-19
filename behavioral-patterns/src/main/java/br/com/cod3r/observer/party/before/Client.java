@@ -1,7 +1,7 @@
-package br.com.cod3r.observer.party;
+package br.com.cod3r.observer.party.before;
 
-import br.com.cod3r.observer.party.characters.Doorman;
-import br.com.cod3r.observer.party.characters.Wife;
+import br.com.cod3r.observer.party.before.characters.Doorman;
+import br.com.cod3r.observer.party.before.characters.Wife;
 
 public class Client {
 
