@@ -1,10 +1,10 @@
-package br.com.cod3r.mediator.swing.components;
+package br.com.cod3r.mediator.swing.before.components;
 
 import javax.swing.JLabel;
 
 public class Label extends JLabel {
 	private static final long serialVersionUID = 4136663121512778435L;
-	private State state;
+	private final State state;
 	
 	public Label(State state) {
 		super("Times Clicked: 0");
