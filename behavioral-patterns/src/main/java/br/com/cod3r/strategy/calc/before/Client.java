@@ -1,4 +1,4 @@
-package br.com.cod3r.strategy.calc;
+package br.com.cod3r.strategy.calc.before;
 
 public class Client {
 
