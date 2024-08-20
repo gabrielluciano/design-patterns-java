@@ -1,4 +1,4 @@
-package br.com.cod3r.state.headphone;
+package br.com.cod3r.state.headphone.before;
 
 public class HeadPhone {
 	private boolean isOn;
