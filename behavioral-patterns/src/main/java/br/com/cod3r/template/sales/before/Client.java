@@ -1,12 +1,12 @@
-package br.com.cod3r.template.sales;
+package br.com.cod3r.template.sales.before;
 
 import java.util.Arrays;
 
-import br.com.cod3r.template.sales.model.Buyer;
-import br.com.cod3r.template.sales.model.Cart;
-import br.com.cod3r.template.sales.model.Category;
-import br.com.cod3r.template.sales.model.Product;
-import br.com.cod3r.template.sales.service.BestOfferService;
+import br.com.cod3r.template.sales.before.model.Buyer;
+import br.com.cod3r.template.sales.before.model.Cart;
+import br.com.cod3r.template.sales.before.model.Category;
+import br.com.cod3r.template.sales.before.model.Product;
+import br.com.cod3r.template.sales.before.service.BestOfferService;
 
 public class Client {
 

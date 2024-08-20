@@ -1,16 +1,16 @@
-package br.com.cod3r.template.sales.service;
+package br.com.cod3r.template.sales.before.service;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import br.com.cod3r.template.sales.model.Cart;
-import br.com.cod3r.template.sales.model.Category;
+import br.com.cod3r.template.sales.before.model.Cart;
+import br.com.cod3r.template.sales.before.model.Category;
 
 public class BestOfferService {
 	Map<Category, Double> discountsByCategory;
 	
 	public BestOfferService() {
-		discountsByCategory = new HashMap<Category, Double>();
+		discountsByCategory = new HashMap<>();
 		discountsByCategory.put(Category.ELETRONICS, 0.3);
 		discountsByCategory.put(Category.CLOTHES, 0.05);
 	}

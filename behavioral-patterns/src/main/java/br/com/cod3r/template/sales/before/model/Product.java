@@ -1,4 +1,4 @@
-package br.com.cod3r.template.sales.model;
+package br.com.cod3r.template.sales.before.model;
 
 public class Product {
 	private String desc;
